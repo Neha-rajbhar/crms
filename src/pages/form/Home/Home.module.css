@@ -1,0 +1,27 @@
+.homes {
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 0px;
+
+  height: 10%;
+  width: 100%;
+  display: flex;
+
+  justify-content: flex-end;
+  align-items: center;
+  background: #ff9b44;
+  background: linear-gradient(to right, #ff9b44 15%, #fc6075 100%);
+  border-radius: 10px;
+}
+.homes .buttons {
+  border: none;
+  font-size: 1.55rem;
+  padding: 10px 20px;
+  background: transparent;
+  color: white;
+}
+.homes .buttons:hover {
+  background-color: white;
+  color: #fc6075;
+  border-radius: 10px;
+}

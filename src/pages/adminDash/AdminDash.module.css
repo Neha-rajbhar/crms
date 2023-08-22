@@ -1,0 +1,141 @@
+.container {
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar {
+    width: 100%;
+    height: 10%;
+    background: #ff9b44;
+    background: linear-gradient(to right, #ff9b44 0%, #fc6075 100%);
+  
+    transition: 0.5s;
+  
+    display: flex;
+    flex-direction: row;
+  }
+  .result {
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .msg h1{
+     color: #fc6075;
+     text-align: center;
+     margin-top: 90px;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* border: 1px solid red; */
+    justify-content: flex-end;
+    height: 100%;
+  }
+  .navbar ul li {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  .button {
+    border: none;
+    background: transparent;
+    color: white;
+  }
+  .button:hover {
+    color: #fc6075;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 5px;
+  }
+ 
+  
+ 
+
+  
+ 
+  /* 
+    .navbar ul li:hover a::before{
+        content: ' ';
+        position: absolute;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        top: -50px;
+        background: transparent;
+        border-radius: 50%;
+        pointer-events: none;
+        box-shadow: 35px 35px 0px 10px white;
+    }
+    
+    
+    .navbar ul li:hover a::after{
+        content: ' ';
+        position: absolute;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        bottom: -50px;
+        background: transparent;
+        border-radius: 50%;
+        pointer-events: none;
+        box-shadow: 35px -35px 0px 10px white;
+    } */
+  
+  .result table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Table Header Styles */
+  .result thead {
+    background-color: #ff9b44;
+    color: white;
+  }
+  
+  .result th {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  /* Table Row Styles */
+  .result tbody tr:nth-child(odd) {
+    background-color: rgb(243, 247, 248);
+  }
+  
+  .result td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Button Styles */
+  .result button {
+    background-color: #ff9b44;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .result button:hover {
+    background-color: #fc6075;
+  }
+  
+  .secondSection {
+    /* border: 2px solid blue; */
+    width: 80%;
+  }
+  .result h1 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  
